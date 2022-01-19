@@ -7,7 +7,9 @@
 ***
 EndPoint URL: (https://yh2imt1tof.execute-api.eu-west-1.amazonaws.com/produccion/get-spot-price)
 
-This Function get Spot Price from Binance API: (https://binance-docs.github.io/apidocs/spot/en/#change-log)
+This Function get Spot Price from Binance API: 
+* (https://binance-docs.github.io/apidocs/spot/en/#change-log)
+* (https://binance-docs.github.io/apidocs/spot/en/#symbol-price-ticker)
 
 ## Technologies
 ***
