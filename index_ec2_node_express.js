@@ -11,11 +11,7 @@ app.get('/', (req,res) =>{
     response.on('data', part => body += part)
     response.on('end', () => {
      res.setHeader('Content-Type', 'application/json');
-     res.end(JSON.stringify(body));
-    })
-    response.on('error', e => {
-      console.log('Error: ' + e.message)
-      throw e
+     res.end(body);
     })
   })
 
