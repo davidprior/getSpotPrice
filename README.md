@@ -5,7 +5,7 @@
 
 ### General Info
 ***
-EndPoint URL: (https://yh2imt1tof.execute-api.eu-west-1.amazonaws.com/produccion/get-spot-price)
+EndPoint URL: (https://dfc7nlf791.execute-api.eu-west-1.amazonaws.com/production/getSpotPriceBTC)
 
 This Function get Spot Price from Binance API: 
 * (https://binance-docs.github.io/apidocs/spot/en/#change-log)
@@ -19,20 +19,4 @@ This Function get Spot Price from Binance API:
 * [AWS API gateway](https://aws.amazon.com/es/api-gateway/)
 ## How To
 ***
-Test API, implement POST call from Postman
-```
-paths:
-  https://yh2imt1tof.execute-api.eu-west-1.amazonaws.com/produccion/get-spot-price:
-    post:
-      summary: Returns the Spot Price from https://binance-docs.github.io/apidocs/spot/en/#change-log, default BTCUSDT
-      consumes:
-        - application/json
-    parameters:
-      - in: body
-        name: symbol
-        required: false
-    responses:
-      200:
-        description: ok
-```
-
+Test API, implement GET call from Postman
