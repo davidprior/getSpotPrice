@@ -5,7 +5,7 @@
 
 ### General Info
 ***
-1. EndPoint URL EC2: (https://ec2-54-78-25-238.eu-west-1.compute.amazonaws.com)
+1. EndPoint URL EC2: (ec2-54-78-25-238.eu-west-1.compute.amazonaws.com)
 
 2. EndPoint URL AWS Lambda: (https://dfc7nlf791.execute-api.eu-west-1.amazonaws.com/production/getSpotPriceBTC)
 
